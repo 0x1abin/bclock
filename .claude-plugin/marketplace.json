@@ -1,0 +1,14 @@
+{
+  "name": "bclock",
+  "owner": {
+    "name": "0x1abin"
+  },
+  "description": "ESP32-C6 桌面 LED 提示灯 plugin（单仓库单 plugin）",
+  "plugins": [
+    {
+      "name": "bclock",
+      "source": "./",
+      "description": "Claude Code 任务完成时点亮 ESP32-C6 板载 LED"
+    }
+  ]
+}

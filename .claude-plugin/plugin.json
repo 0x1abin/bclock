@@ -1,0 +1,10 @@
+{
+  "name": "bclock",
+  "description": "ESP32-C6 桌面 LED 提示灯：Claude Code 任务完成时通过 BLE 广播点亮板载 WS2812",
+  "version": "0.1.0",
+  "author": {
+    "name": "0x1abin"
+  },
+  "homepage": "https://github.com/0x1abin/bclock",
+  "keywords": ["hooks", "hardware", "ble", "esp32", "notification"]
+}
