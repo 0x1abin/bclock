@@ -7,7 +7,7 @@ FW="$ROOT/firmware"
 
 echo "flashing $FW -> $PORT"
 
-for f in config.py led.py ble_server.py main.py; do
+for f in config.py led.py servo.py servo_anim.py ble_server.py main.py; do
   echo "  cp $f"
   mpremote connect "$PORT" cp "$FW/$f" ":$f"
 done
